@@ -1,26 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import backgroundImage from './assets/IMG_4358.jpg'
 import ecoimpactlogo from './assets/logos/logo.png'
 import meimage from './assets/IMG_4393.jpg'
 import ciclogo from './assets/cic.png'
 
-const count = ref(0)
-const error = ref('')
-
-function increment() {
-  count.value++
-  error.value = ''
-}
-
-function subtract() {
-  if (count.value > 0) {
-    count.value--
-    error.value = ''
-  } else {
-    error.value = "You can't go below 0!"
-  }
-}
 </script>
 
 <template>
@@ -48,7 +31,9 @@ function subtract() {
 </section>
 
   <section id="about" class="py-16 px-4 bg-gray-100">
-    <img :src="meimage" alt="Ivan R.C" class="mx-auto rounded-full w-70 h-70 object-cover mb-6 shadow-md">
+    <img :src="meimage" alt="Ivan R.C"
+     class="mx-auto rounded-full w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover mb-6 shadow-md">
+
     <h1 class="text-center text-5xl font-mono mb-6">ABOUT ME</h1>
     <p class="text-center text-gray-600 max-w-3xl mx-auto leading-relaxed">
       Hi y'all. My name is Ivan. I'm an up-and-coming junior software developer from a small town in North Carolina.
