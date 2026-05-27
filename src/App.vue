@@ -36,7 +36,7 @@ import ciclogo from './assets/cic.png'
 
     <h1 class="text-center text-5xl font-mono mb-6">ABOUT ME</h1>
     <p class="text-center text-gray-600 max-w-3xl mx-auto leading-relaxed">
-      Hi y'all. My name is Ivan. I'm an up-and-coming junior software developer from a small town in North Carolina.
+      Hi y'all. My name is Ivan. I'm an IT Support Specialist and up-and-coming junior software developer from a small town in North Carolina.
       I graduated from the University of North Carolina at Greensboro with a Bachelor's degree in Computer Science.
       I love exploring new technologies and building mini projects in my free time.
       I'm also passionate about games—whether it's football (soccer), chess, or video games.
@@ -132,7 +132,7 @@ import ciclogo from './assets/cic.png'
         <span class="text-xl font-semibold text-orange-500">D3.js</span>
       </div>
 
-      <div class="h-40 bg-white p-4 rounded-lg shadow hover:scale-100 transition flex flex-col items-center justify-center">
+      <div class="h-40 bg-white p-4 rounded-lg shadow hover:scale-105 transition flex flex-col items-center justify-center">
         <img src="./assets/logos/Vite.js.png" class="w-12 h-12 mb-2" />
         <span class="text-xl font-semibold text-violet-500">Vite.js</span>
       </div>
